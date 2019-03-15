@@ -65,7 +65,7 @@ class: middle, center
 ---
 class: middle, center
 
-<img src="/images/threespheresofcommons.png" style="width: 100%;">
+<img src="images/threespheresofcommons.png" style="width: 100%;">
 
 ---
 
