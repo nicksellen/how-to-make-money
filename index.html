@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+    <meta charset="utf-8">
+    <link href='fonts.css' rel='stylesheet' type='text/css'>
+    <style>
+      * {
+
+        font-size: 36px;
+      }
+      body {
+        font-family: 'Noto Sans';
+      }
+      h1, h2, h3, h4, h5 {
+        color: black;
+        background-color: #fff;
+        padding-top: 0;
+        margin-top: 0;
+        line-height: 140%;
+        font-size: 30px;
+      }
+    </style>
+  </head>
+  <body>
+    <script src="vendor/remark-latest.min.js">
+    </script>
+    <script>
+      var slideshow = remark.create({
+        ratio: '16:9',
+        sourceUrl: 'index.md',
+      });
+    </script>
+  </body>
+</html>
